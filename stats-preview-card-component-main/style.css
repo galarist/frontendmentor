@@ -43,7 +43,6 @@ body {
 main {
     text-align: center;
     border-radius: 6px;
-    overflow: hidden;
     margin: .5em;
     margin: 10px;
     position: relative;
@@ -114,6 +113,8 @@ span {
         height: 220px;
         background-repeat: no-repeat;
         background-size: 100%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
     }
 
     section {
@@ -146,6 +147,7 @@ span {
         flex-direction: row-reverse;
         min-width: 600px;
         height: 300px;
+        overflow: hidden;
     }
 
     #header {
