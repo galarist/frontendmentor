@@ -100,7 +100,7 @@ span {
     text-transform: capitalize;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 604px) {
     main {
         width: 300px;
         height: auto;
@@ -138,7 +138,7 @@ span {
     
 }
 
-@media only screen and (min-width: 376px) {
+@media only screen and (min-width: 605px) {
 
     main {
         overflow: hidden;
