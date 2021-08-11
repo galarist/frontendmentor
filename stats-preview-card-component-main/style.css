@@ -144,12 +144,14 @@ span {
         position: relative;
         display: flex;
         flex-direction: row-reverse;
+        min-width: 600px;
+        height: 300px;
     }
 
     #header {
         background-image: url(images/image-header-desktop.jpg);
         height: 100%;
-        width: 315px;
+        width: 365px;
         background-repeat: no-repeat;
         background-size: 100%;
         background-size: contain;
@@ -160,14 +162,18 @@ span {
         width: 346px;
         padding: 0;
         text-align: left;
-        transform: scale(0.8);
         margin-left: 0.5rem;
-        margin-right: 1.5rem;
+        margin-right: 4rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
 
     #title {
         margin: 20px 0;
+        margin-left: 35px;
     }
 
     #mainParagraph, .stats {
