@@ -86,6 +86,7 @@ main {
     color: var(--Slightly-transparent-white);
     font-family: var(--Inter);
     line-height: 22px;
+    font-size: var(--Font-size);
 }
 
 .statHeadings {
