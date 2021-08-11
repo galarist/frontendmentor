@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary */
+    --pale-blue : hsl(225, 100%, 94%);
+    --bright-blue : hsl(245, 75%, 52%);
+    /* Neutral */
+    --very-pale-blue : hsl(225, 100%, 98%);
+    --desaturated-blue : hsl(224, 23%, 55%);
+    --dark-blue : hsl(223, 47%, 23%);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+    max-width: 408px;
+    border-radius: 20px;
+    background-color: var(--very-pale-blue);
+}
+
+#wrapper {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 200px;
+}
+
+#title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#planWrapper {
+    background-color: var(--pale-blue);
+    border-radius: 6px;
+    width: 85%;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#plan {
+    display: flex;
+    align-items: center;
+}
+
+#planChange input {
+    border: none;
+    background-color: var(--pale-blue);
+    color: var(--bright-blue);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#actionButtons {
+    flex-direction: column;
+}
+
+.attribution {
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 16px;
+        background: url('images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-color: var(--pale-blue);
+        height: 100vh;
+    }
+}
